@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omar Mohamed - Cybersecurity Enthusiast & SOC Analyst Trainee Portfolio">
+    <title>Omar Mohamed | Cybersecurity Portfolio</title>
+    <!-- Google Fonts: Inter and Fira Code for a tech/hacker vibe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Background Animation Canvas Placeholder -->
+    <div class="bg-animation" id="bg-animation"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="highlight">&lt;</span>OmarHamedSec<span class="highlight">/&gt;</span>
+            </div>
+            <button class="menu-toggle" id="mobile-menu" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text-wrapper reveal">
+                    <p class="greeting">sys.init("Hello, World");</p>
+                    <h1 class="glitch" data-text="Omar Mohamed">Omar Mohamed</h1>
+                    <h2 class="role"><span id="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                    <p class="bio">
+                        Electronics & Communications Engineering student specializing in Network Security and SOC Operations. Building resilient systems and defending against modern threats.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="cv%20and%20resume/OMAR%20HAMED%20RESUME.pdf" download="Omar_Hamed_Resume.pdf" class="btn btn-secondary"><i class="fas fa-download"></i> Resume</a>
+                        <a href="cv%20and%20resume/OMAR%20HAMED%20CV.pdf" download="Omar_Hamed_CV.pdf" class="btn btn-outline"><i class="fas fa-file-pdf"></i> CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <h2 class="section-title reveal"><span class="highlight">01.</span> About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p>
+                            I am a 4th-year <strong>Electronics & Communications Engineering (ECE)</strong> student at Horus University, Egypt, graduating in 2026. My passion lies at the intersection of networking and cybersecurity.
+                        </p>
+                        <p>
+                            Currently, I am focusing my efforts on becoming a <strong>SOC Analyst</strong>, with long-term goals of transitioning into advanced Blue Team roles and earning my CISSP. I believe in practical, hands-on learning over pure theory, which is why I am currently building a comprehensive homelab to simulate real-world attack and defense scenarios.
+                        </p>
+                        <ul class="about-list">
+                            <li><i class="fas fa-university"></i> Horus University, Egypt</li>
+                            <li><i class="fas fa-graduation-cap"></i> Class of 2026</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Egypt</li>
+                        </ul>
+                    </div>
+                    <div class="about-image reveal">
+                        <div class="image-wrapper">
+                            <!-- Placeholder for Profile Picture -->
+                            <div class="profile-placeholder">
+                                <i class="fas fa-user-ninja"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <div class="container">
+                <h2 class="section-title reveal"><span class="highlight">02.</span> Core Skills</h2>
+                <div class="skills-grid">
+                    
+                    <div class="skill-category reveal">
+                        <div class="skill-header">
+                            <i class="fas fa-shield-halved"></i>
+                            <h3>Security Operations</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>SOC Analysis</li>
+                            <li>Incident Response</li>
+                            <li>Splunk</li>
+                            <li>Wazuh</li>
+                            <li>Sysmon</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category reveal">
+                        <div class="skill-header">
+                            <i class="fas fa-network-wired"></i>
+                            <h3>Network & Systems</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>Network Security</li>
+                            <li>Windows Server 2022</li>
+                            <li>Kali Linux / Ubuntu</li>
+                            <li>pfSense</li>
+                            <li>Wireshark</li>
+                            <li>Nmap</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category reveal">
+                        <div class="skill-header">
+                            <i class="fas fa-bug"></i>
+                            <h3>Vulnerability & Testing</h3>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>Metasploit</li>
+                            <li>Nessus</li>
+                            <li>Penetration Testing Concepts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section-padding">
+            <div class="container">
+                <h2 class="section-title reveal"><span class="highlight">03.</span> Leadership & Experience</h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-panel">
+                            <h3>Head of Cybersecurity Team</h3>
+                            <h4 class="company">Microsoft Learn Student Ambassadors (MLSA)</h4>
+                            <p class="date">Present</p>
+                            <ul>
+                                <li>Leading a team of aspiring cybersecurity professionals, planning technical workshops and CTF events.</li>
+                                <li>Fostering community building and mentoring students in fundamental security concepts.</li>
+                                <li>Driving team projects and strategic roadmaps for the academic year.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="container">
+                <h2 class="section-title reveal"><span class="highlight">04.</span> Featured Projects</h2>
+                <div class="projects-grid">
+                    
+                    <!-- Homelab Project -->
+                    <div class="project-card glass-panel reveal">
+                        <div class="project-header">
+                            <i class="fas fa-server"></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Enterprise Cybersecurity Homelab</h3>
+                        <p class="project-desc">
+                            A fully documented, practical homelab environment built for simulating attacks and practicing Blue Team defense. Includes Active Directory, SIEM integration (Wazuh/Splunk), and a pfSense firewall.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Windows Server</li>
+                            <li>Kali Linux</li>
+                            <li>Wazuh</li>
+                            <li>pfSense</li>
+                        </ul>
+                        <div class="project-status in-progress">
+                            <span class="status-dot"></span> Planning Phase
+                        </div>
+                    </div>
+
+                    <!-- Graduation Project -->
+                    <div class="project-card glass-panel reveal">
+                        <div class="project-header">
+                            <i class="fas fa-microchip"></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="Documentation Link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Graduation Project</h3>
+                        <p class="project-desc">
+                            Final year engineering project focusing on advanced electronics and communication concepts. (Topic currently in the ideation and supervisor selection phase).
+                        </p>
+                        <ul class="project-tech">
+                            <li>ECE</li>
+                            <li>Research</li>
+                            <li>Design</li>
+                        </ul>
+                        <div class="project-status in-progress">
+                            <span class="status-dot"></span> Ideation Phase
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <div class="contact-content reveal text-center">
+                    <h2 class="section-title"><span class="highlight">05.</span> What's Next?</h2>
+                    <h3 class="contact-heading">Get In Touch</h3>
+                    <p class="contact-desc">
+                        I'm always looking for new opportunities to learn, collaborate, and contribute to the cybersecurity community. Whether you have a question or just want to say hi, my inbox is open!
+                    </p>
+                    <a href="mailto:omarhamed.sec@gmail.com" class="btn btn-primary contact-btn">Say Hello</a>
+                    
+                    <div class="social-links mt-4">
+                        <a href="https://www.linkedin.com/in/omar-hamed-sec" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p>Designed & Built by Omar Mohamed <span class="highlight">(OmarHamedSec)</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

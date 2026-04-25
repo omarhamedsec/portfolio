@@ -580,6 +580,10 @@ p {
     color: #ffb86c;
 }
 
+.completed {
+    color: var(--accent-color);
+}
+
 .status-dot {
     width: 8px;
     height: 8px;

@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Typing Effect for Hero Section
     const textsToType = [
-        "SOC Analyst Trainee",
+        "Network Security Engineer",
         "Network Security Student",
         "Head of CyberSec @ MLSA",
         "Blue Team Enthusiast"

@@ -598,6 +598,83 @@ p {
     100% { box-shadow: 0 0 0 0 rgba(255, 184, 108, 0); }
 }
 
+/* ============================================================
+   Documentation Hub Banner
+   ============================================================ */
+.doc-hub-banner {
+    display: block;
+    margin-top: 40px;
+    padding: 28px 36px;
+    border: 1px dashed rgba(100, 255, 218, 0.35);
+    border-radius: 8px;
+    background: rgba(100, 255, 218, 0.03);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.doc-hub-banner:hover {
+    border-color: var(--accent-color);
+    background: rgba(100, 255, 218, 0.07);
+    transform: translateY(-3px);
+}
+
+.doc-hub-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.doc-hub-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.doc-hub-icon {
+    font-size: 36px;
+    color: var(--accent-color);
+    flex-shrink: 0;
+}
+
+.doc-hub-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--accent-color);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.doc-hub-title {
+    font-size: 18px;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+}
+
+.doc-hub-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.doc-hub-arrow {
+    font-size: 20px;
+    color: var(--accent-color);
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.doc-hub-banner:hover .doc-hub-arrow {
+    transform: translateX(6px);
+}
+
+@media (max-width: 600px) {
+    .doc-hub-inner { flex-direction: column; align-items: flex-start; }
+    .doc-hub-arrow { display: none; }
+}
+
+
 /* ==========================================================================
    Contact & Footer
    ========================================================================== */
